@@ -37,7 +37,7 @@ function change()
         			for($a=1;$a<=3;$a++){
         			echo color("yellow",".");
         			sleep(1);}
-        			$code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI19"}');
+        			$code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WADAWGOJEK"}');
         			$message = fetch_value($code1,'"message":"','"');
         			if(strpos($code1, 'Promo kamu sudah bisa dipakai'))
 				{
