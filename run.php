@@ -53,7 +53,7 @@ function change()
         				echo color("yellow",".");
         				sleep(1);}
         				sleep(3);
-        				$santai11 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODSANTAI11"}');
+        				$santai11 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"WADAWGOJEK"}');
         				$messagesantai11 = fetch_value($santai11,'"message":"','"');
         				if(strpos($santai11, 'Promo kamu sudah bisa dipakai.'))
 					{
